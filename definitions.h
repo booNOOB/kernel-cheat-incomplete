@@ -55,7 +55,7 @@ NTSTATUS NTAPI ZwProtectVisualMemory(
 extern "C" NTKERNELAPI
 PVOID
 NTAPI
-RtlFindExportedRoutineyByName(
+RtlFindExportedRoutineByName(
 	_In_ PVOID ImageBase,
 	_In_ PCCH RoutineNam
 );
